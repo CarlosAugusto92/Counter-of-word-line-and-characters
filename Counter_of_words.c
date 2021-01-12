@@ -65,12 +65,12 @@ int main (int argc, char * argv[])
 			     //Counter words.
 			     ++counter_words;
 		    }
-		} 
-	   
-	   // Print #lines, #chars, #words, name of file.
-		printf("%d %d %d %s\n", counter_lines, counter_chars - 1, counter_words, argv[1]);
-	}
+	} 
+	    // Print #lines, #chars, #words, name of file.
+	    printf("%d %d %d %s\n", counter_lines, counter_chars - 1, counter_words, argv[1]);
 
+
+   }
 	fclose(fp);
 	return 0;
 } 
