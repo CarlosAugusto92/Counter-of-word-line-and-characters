@@ -35,8 +35,8 @@ int main (int argc, char * argv[])
 	if (fp == NULL)
 	{ 
 		perror("Error in opening file");
-        return -1;
-    }
+                return -1;
+        }
     else
     {
     	while (c != EOF)
@@ -64,7 +64,7 @@ int main (int argc, char * argv[])
 			     flag = INPUT;
 			     //Counter words.
 			     ++counter_words;
-			}
+		    }
 		} 
 	   
 	   // Print #lines, #chars, #words, name of file.
