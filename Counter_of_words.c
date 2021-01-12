@@ -1,6 +1,6 @@
 /* This code is like command of UNIX (wc file.txt) and returns the numbers line, words and characters.
  * In the directory of this project there are many files that you can use for test this program and improve it. For example,
- * at the end of the word the program count the white space. However, the counter has a good approximation. It can be
+ * at the end of the word the program counts the white space. However, the counter has a good approximation. It can be
  * compared with an editor of text and check the results with the program. Some editors of text match with the results but
  * others do not.
  * The specific file two (file2.txt) is the main file for test it.
